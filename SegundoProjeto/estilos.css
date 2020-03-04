@@ -3,13 +3,39 @@ body{
     background: url("Imagens/fundo.png");
 }
 
-/* CORPO DO SITE */
+/* CABEÇA DO SITE */
 #head{
     width: 900px;
 }
+
 #menu{
 
-    background: #c5c5b2;
-    /* definindo a largura*/
-    padding: 18px;
+    background: #c5c5b2; /* modificando a cor*/
+    padding: 18px; /* Definindo a margem e do texto */
+}
+
+/* configurações do menu*/
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px; 
+}
+
+/* Configurações do conteudo*/
+h1 {
+
+    color: #828271;
+    font-size: 1.2em;
+}
+#conteudo{
+    background: #e8e8d9; /* modificando a cor*/
+    padding: 10px; /* Definindo a margem e do texto */
+}
+
+#rodape{
+    text-align: center;
+}
+#centralizar{
+    text-align: center;
 }
