@@ -1,0 +1,25 @@
+header{
+	border: 1px solid black;
+	display: flex;
+}
+
+nav ul li{
+	display: inline;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+footer{
+	border: 1px solid black;
+}
+
+article{
+	border: 1px solid red;
+	padding: 20px;
+}
+
+
+section{
+	border: 1px solid black;
+	padding: 20px;
+}
